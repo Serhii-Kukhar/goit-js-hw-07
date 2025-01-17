@@ -28,42 +28,44 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* ###################  TASK-1  ####################### */
 
-/* .item {
-  display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 16px;
-  border-radius: 8px;
+.item{
+  background-color: #f6f6fe;;
+    border-radius: 8px;
     padding: 16px;
-    width: 392px;
-    height: 264px;
-  background: #f6f6fe;
+    max-width: 392px;
+    margin-bottom: 24px;
 }
+
+
 .li-item {
-  list-style: none;
-  font-weight: 400;
+    padding: 8px;
+    
+    margin-bottom: 8px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    background-color: #f6f6fe;;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #2e2f42;
-  border: 1px solid #808080;
-    border-radius: 4px;
-    width: 360px;
-    height: 40px;
-    align-items: center;
-    justify-content: center;
+
 }
+
 .item-text {
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.33;
   letter-spacing: 0.04em;
   color: #2e2f42;
-} */
+  margin-bottom: 16px;
+  margin-top: 0;
+} 
 
+/* ###################  TASK-2  ####################### */
   .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -80,7 +82,7 @@ img {
   max-width: 400px;
   border-radius: 8px;
 }
-
+/* ###################  TASK-3  ####################### */
 .input{
   width: 360px;
   height: 40px;
@@ -103,8 +105,7 @@ img {
 .output-text{
   color: #7c9399;
 }
-
-.login-form{
+/* ###################  TASK-4  ####################### */.login-form{
   border-radius: 8px;
   padding: 24px;
   width: 408px;
@@ -155,3 +156,5 @@ img {
 .btn-form:hover{
   background: #6c8cff;
 }
+
+/* #################################################### */
