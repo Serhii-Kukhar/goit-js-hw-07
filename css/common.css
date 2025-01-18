@@ -22,6 +22,7 @@ a {
 }
 button {
   cursor: pointer;
+  border: none;
 }
 img {
   display: block;
@@ -119,7 +120,7 @@ img {
 .form-input{
   width: 100%;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -145,7 +146,6 @@ img {
     letter-spacing: 0.04em;
     color: #fff;
     border-radius: 8px;
-    border: none;
     padding: 8px 16px;
     width: 86px;
     height: 40px;
@@ -157,4 +157,37 @@ img {
   background: #6c8cff;
 }
 
-/* #################################################### */
+/* #########################  TASK-5  ######################## */
+.widget {
+
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+  height: 280px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.change-color{
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background-color: #4e75ff;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.change-color:hover{
+  background-color: #6c8cff;
+}
+.color-text{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
